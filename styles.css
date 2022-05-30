@@ -1,0 +1,186 @@
+/*- Lichtgrijs `#F3F6F9` (voor de achtergrond van de projecten)
+- Grijs `#7A7A7A` (voor de service-tegel tekst);*/
+
+:root {
+    --paars: #5722CD;
+    --blauw: #4B49E8;
+    --magnolia: #F2F0FF;
+    --rose: #ED4385;
+    --zwart: #0C0C0C;
+}
+header {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.koptekst {
+    align-items: center;
+}
+
+h1 {
+    font-size: 34px;
+    color: #F2F0FF;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: "Roboto Light";
+    color: #F2F0FF;
+}
+
+h3 {
+    font-size: 12px;
+    font-family: "Roboto Light";
+    color: #F2F0FF;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: "Roboto Light";
+    color: #5722CD;
+
+}
+
+.knopje {
+    background-color: #ED4385;
+    width: 120px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #2B29C8;
+}
+
+.inner-container {
+    background-color: #4B49E8;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inner-container2 {
+    display: flex;
+    flex: ;
+}
+
+
+
+nav{
+alignment: center;
+}
+.navigatiebalk {
+    width: 300px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #F2F0FF;
+}
+/*
+Hier komt deel2 */
+
+.citaat {
+    color: #5722CD;
+    padding: 15px;
+}
+
+.testimonial {
+    width: 900px;
+    background-color: white;
+    font-size: 34px;
+    font-family: merrieweather, serif;
+    padding: 16px;
+
+}
+
+.tekstjes {
+    background-color: #F2F0FF;
+}
+
+.question {
+    font-family: "Roboto Light";
+    font-size: 13px;
+    padding: 16px;
+}
+/*
+
+Hier komt deel 3*/
+
+.foto1 {
+    box-shadow: 12px 12px 24px darkgrey;
+}
+
+.praatjebijplaatje1 {
+width: 300px;
+    font-family: Roboto;
+}
+
+.viewproject {
+    color: #5722CD;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+
+/*
+Hier komt het blokjesdeel.*/
+
+.blokjesgedeelte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
+}
+
+.blokjes {
+    min-width: 200px;
+    border-width: 2px;
+    border-color: #5722CD;
+    margin: 34px;
+    border-style: double;
+    box-shadow: 5px 5px 10px darkgrey;
+    padding: 32px;
+
+}
+
+.icon {
+    width: 50px;
+}
+
+
+/*
+Footer*/
+
+footer {
+    background-color: #2B29C8;
+    color: #F2F0FF;
+    padding: 45px;
+
+}
+
+ button {
+    background-color: #ED4385;
+     border: 0px;
+    color: #F2F0FF;
+    text-transform: uppercase;
+    width: 120px;
+    height: 50px;
+    border-radius: 21px;
+    box-shadow: 5px 5px 10px #1B19A8;
+}
+ 
+ input {
+     margin: 1px;
+     height: 50px;
+     width: 500px;
+ }
+
+ p {
+     font-family: Roboto;
+ }
