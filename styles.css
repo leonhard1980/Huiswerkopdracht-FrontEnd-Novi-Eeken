@@ -1,33 +1,50 @@
 /*- Lichtgrijs `#F3F6F9` (voor de achtergrond van de projecten)
 - Grijs `#7A7A7A` (voor de service-tegel tekst);*/
-
-:root {
-    --paars: #5722CD;
-    --blauw: #4B49E8;
-    --magnolia: #F2F0FF;
-    --rose: #ED4385;
-    --zwart: #0C0C0C;
+*{
+    margin 0px;
 }
+
 header {
     padding: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background-image: linear-gradient(to bottom right, #6D46D5, #2B29C8);
+    margin: 0px;
 }
 
-nav {
-    width: 1200px;
+.inner-container {
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.koptekst {
-    align-items: center;
+.knopje {
+    background-color: #ED4385;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #2B29C8;
+    height: 50px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
 }
 
+.kopartikel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
 h1 {
-    font-size: 34px;
+    font-size: 44px;
     color: #F2F0FF;
 }
 
@@ -50,75 +67,97 @@ h4 {
 
 }
 
-.knopje {
-    background-color: #ED4385;
-    width: 120px;
-    border-radius: 12px;
-    box-shadow: 5px 5px 10px #2B29C8;
-}
 
-.inner-container {
-    background-color: #4B49E8;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.inner-container2 {
-    display: flex;
-    flex: ;
-}
-
-
-
-nav{
-alignment: center;
-}
 .navigatiebalk {
     width: 300px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     color: #F2F0FF;
+    font-family: Roboto;
+    font-size: 16px;
 }
 /*
 Hier komt deel2 */
 
-.citaat {
-    color: #5722CD;
-    padding: 15px;
+.inner-container2 {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .testimonial {
-    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
     background-color: white;
     font-size: 34px;
     font-family: merrieweather, serif;
     padding: 16px;
-
 }
 
-.tekstjes {
-    background-color: #F2F0FF;
+.citaat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #5722CD;
+    padding: 15px;
 }
 
 .question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: "Roboto Light";
-    font-size: 13px;
+    font-size: 15px;
     padding: 16px;
 }
 /*
 
 Hier komt deel 3*/
 
-.foto1 {
-    box-shadow: 12px 12px 24px darkgrey;
+.section1 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F0FF;
 }
 
+
 .praatjebijplaatje1 {
-width: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     font-family: Roboto;
+    margin: 12px;
+}
+
+.foto1 {
+    box-shadow: 6px 15px 18px lightsteelblue;
+    width: 650px;
+    margin: 50px;
+}
+
+.praatjebijplaatje2 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: Roboto;
+    margin: 12px;
+}
+
+.foto2 {
+    box-shadow: 15px 15px 10px lightsteelblue;
+    width: 700px;
+    margin: 40px;
 }
 
 .viewproject {
@@ -128,18 +167,28 @@ width: 300px;
 }
 
 
+
 /*
 Hier komt het blokjesdeel.*/
 
 .blokjesgedeelte {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    max-width: 900px;
+
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.blokjescontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .blokjes {
-    min-width: 200px;
+    width: 200px;
     border-width: 2px;
     border-color: #5722CD;
     margin: 34px;
@@ -157,22 +206,33 @@ Hier komt het blokjesdeel.*/
 /*
 Footer*/
 
+.inner-container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 footer {
     background-color: #2B29C8;
     color: #F2F0FF;
     padding: 45px;
+    margin: 0px;
 
 }
 
  button {
     background-color: #ED4385;
-     border: 0px;
+    border: 0px;
     color: #F2F0FF;
     text-transform: uppercase;
     width: 120px;
     height: 50px;
     border-radius: 21px;
     box-shadow: 5px 5px 10px #1B19A8;
+    margin: 10px;
+     align-self: center;
 }
  
  input {
@@ -181,6 +241,49 @@ footer {
      width: 500px;
  }
 
+ .calltoaction {
+ align-items: center;
+     text-align: center;
+     }
+
+
  p {
      font-family: Roboto;
  }
+
+/* Zwart onderbalkje met credits.*/
+
+ .zwartonderbalkje {
+     display: flex;
+     background-color: black;
+     padding: 10px;
+     color: #F2F0FF;
+     align-content: center;
+     justify-content: center;
+     margin: 0px;
+ }
+
+.citaatjes {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: #1B19A8;
+    font-size: 35px;
+    font-family: merrieweather, bold;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 45px;
+}
+
+.citaatjes > div {
+    margin: 21px;
+}
+
+.contactus {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
